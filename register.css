@@ -1,0 +1,68 @@
+main
+{
+	background-color:#F0F0F0;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.wrapper
+{
+	width:35%;
+	margin: 0 auto;
+	background-color:white;
+}
+
+.wrapper div
+{
+	width:100%;
+}
+
+#toRegistButton, #toAuthButton
+{
+	border:none;
+	font-size:30px;	
+	background-color:white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left:15%;
+	color:gray;
+}
+
+.regAuthInput
+{
+	width:70%;
+	margin-left: 15%;
+	margin-bottom:20px;
+	height:35px;
+	padding-left:2%;
+}
+
+.selectedDiv
+{
+	border-bottom:2px solid !important;
+	color:black !important;
+}
+
+#toRegistButton
+{
+	margin-left:7% !important;
+}
+   
+#registerDiv
+{
+	display:none;
+}
+
+.error
+{
+	width:70%;
+	margin-left: 15%;
+	margin-bottom:20px;
+	color:red;
+}
+
+.regAuthSubmit
+{
+	margin-left:15%;
+	margin-bottom:50px;
+}

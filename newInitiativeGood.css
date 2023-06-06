@@ -1,0 +1,14 @@
+main
+{
+	background-color:#F0F0F0;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	width:100%;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+main h1
+{
+	margin-bottom: 50px;
+}

@@ -1,0 +1,280 @@
+main
+{
+	background-color:#F0F0F0;
+	z-index:1;
+}
+
+.slider
+{
+	width:100%;
+	position:relative;
+	z-index:2;
+}
+
+#slideNoOpacity
+{
+	opacity:0;
+}
+
+#slideNoOpacity img
+{
+	width:100%;
+}
+
+.slider h1
+{
+	font-size:50px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+
+.sliderSlide
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	z-index:1;
+}
+
+.sliderSlideActive
+{
+	animation:AnimationSlideAdd 0.5s ease;
+	opacity:1;
+	display:block !important;
+}
+
+.sliderSlideInactive
+{
+	animation:AnimationSlideRemove 0.5s ease;
+	opacity:0;
+}
+
+@keyframes AnimationSlideAdd1
+{
+	0%
+	{
+		opacity:0;
+	}
+	100%
+	{
+		opacity:1;
+	}
+}
+
+@keyframes AnimationSlideRemove1
+{
+	0%
+	{
+		opacity:1;
+	}
+	100%
+	{
+		opacity:0;
+	}
+}
+
+.sliderSlide
+{
+	width:100%;
+}
+
+.sliderSlide img
+{
+	width:100%;
+}
+
+.sliderMenu
+{
+	position:absolute;
+	left:20%;
+	top:20%;
+}
+
+#imgSliderLeft
+{
+	width:50px;
+	height:50px;
+	margin-right:20px;
+}
+
+#imgSliderRight
+{
+	width:55px;
+	height:50px;
+	margin-left:20px;
+}
+
+.sliderParagraphs
+{
+	display:flex;
+	width: 30%;
+	justify-content: space-between;
+}
+
+.sliderRotate
+{
+	margin-top:30px;
+	display:flex;
+	position:relative;
+}
+
+.sliderRotate img:hover
+{
+	cursor:pointer;
+}
+
+.sliderRotate p
+{
+	transform: translateY(20%);
+	font-size:24PX;
+}
+
+.sliderParagraphs p
+{
+	width: 45%;
+}
+
+main article
+{
+	width:80%;
+	padding-left:20%;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#mainMenu
+{
+	margin-top:80px;
+	margin-bottom:20px;
+	width:60%;
+	margin-left:20%;
+	display:flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
+
+#toAddInitiative
+{
+	background-color:white;
+	text-decoration:none;
+	font-weight:500;
+	font-size:14px;
+	color:black;
+	padding: 7px 14px;
+	border:1px solid;
+}
+
+#mainMenuComplete
+{
+	padding-top:20px;
+	margin-bottom:20px;
+	width:60%;
+	margin-left:20%;
+	display:flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
+
+main article section
+{
+	width:32.5%;
+	background-color:white;
+	height:450px;
+	margin-top:20px;
+}
+
+main article section div
+{
+	width:100%;
+	height:350px;
+}
+
+main article section a
+{
+	text-decoration:none;
+	color:black;
+}
+
+main article section h2
+{
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding-left:3%;
+}
+
+main article section p
+{
+	font-size:14px;
+	padding-left:3%;
+	-webkit-line-clamp: 3; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden;
+}
+
+main article section img
+{
+	object-fit: cover;
+	width:100%;
+	height: 260px;
+	object-position: 50% 100%;
+}
+
+main article section button
+{
+	display:flex;
+	align-items:center;
+	border:none;
+	background-color:white;
+	margin-top:40px;
+	color:#0D47A1;
+	padding-left:3%;
+	font-size:14px;
+}
+
+main article section button:hover
+{
+	cursor: pointer;
+}
+
+
+main article section button img
+{
+	width:22px;
+	height:22px;
+	object-position: 50% 50%;
+}
+
+main article section button span
+{
+	opacity:0.5;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#showMore
+{
+	margin-top:50px;
+	margin-bottom:250px;
+	margin-left:48%;
+	border:none;
+	border-bottom:1px solid;
+}
+
+#showMore:hover
+{
+	cursor: pointer;
+}
+
+.disabled
+{
+	color:gray;
+}
+
+.disabled:hover
+{
+	cursor: not-allowed;
+}
